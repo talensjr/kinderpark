@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        main: ['girls', 'cursive', ...defaultTheme.fontFamily.sans],
+        brand: ['girls', 'cursive', ...defaultTheme.fontFamily.sans],
+        main: ['open-sans', ...defaultTheme.fontFamily.sans],
       },
     },
   },
